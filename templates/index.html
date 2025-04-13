@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deepika - Portfolio</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+  <header>
+    <h1>DEEPIKA</h1>
+    <p>Software Developer | Web Enthusiast | Problem Solver</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hello! I'm a passionate software developer with a strong focus on web technologies. I enjoy building efficient and user-friendly applications. My skills include HTML, CSS, JavaScript, and more. I'm always eager to learn and explore new technologies.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Project 1: E-commerce Website</h3>
+      <img src="{{ url_for('static', filename='images/E-com.jpg') }}" alt="E-commerce Website">
+      <p>Developed a fully functional e-commerce website with user authentication, product management, and payment integration.</p>
+      <a href="#">View Project</a>
+    </div>
+
+    <div class="project">
+      <h3>Project 2: Diabetes Prediction using ML</h3>
+      <img src="{{ url_for('static', filename='images/Diabetes.jpg') }}" alt="Diabetes Prediction">
+      <p>Done a Diabetes Prediction using ML to know about who has diabetes or not.</p>
+      <a href="#">View Project</a>
+    </div>
+
+    <div class="project">
+      <h3>Project 3: Attendance Marker</h3>
+      <img src="{{ url_for('static', filename='images/Attendance.jpg') }}" alt="Attendance">
+      <p>Add name if a new student arrives, and mark them red as absent and green as present.</p>
+      <a href="#">View Project</a>
+    </div>
+
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: deepikavu11@gmail.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/deepikav11" target="_blank">Your LinkedIn Profile</a></p>
+    <p>GitHub: <a href="https://github.com/deepi110304" target="_blank">Your GitHub Profile</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Deepika</p>
+  </footer>
+
+</body>
+</html>
