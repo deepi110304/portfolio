@@ -34,6 +34,8 @@ cd portfolio
 To run the Flask application, use the following command:
 python app.py
 
+### 3. Requirements
+(i).Flask
 Contributing
 Feel free to fork the repository and submit pull requests. Any improvements or suggestions are welcome!
 
