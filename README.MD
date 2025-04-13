@@ -26,6 +26,7 @@ This is the personal portfolio website of **Deepika**, showcasing various projec
 ### 1. Clone the repository
 
 git clone https://github.com/deepi110304/portfolio.git
+
 cd portfolio
 
 ### 2. Run the Application
